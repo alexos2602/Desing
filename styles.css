@@ -341,3 +341,51 @@ nav .enlaces a:hover{
   overflow: hidden;
   margin-bottom: var(--espacios-contenido);
 }
+
+.img-work{
+  height: 90%;
+  width: 100%;
+}
+
+.img-work img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.textos-work{
+  height: 10%;
+}
+
+.textos-work h4{
+  line-height: 30px;
+  font-weight: 300;
+}
+
+/* Footer */
+
+footer{background:url(img/teclado.jpg);}
+
+.marca-logo{
+  width: 40%;
+  margin: auto;
+  margin-bottom: var(--espacios);
+}
+
+.marca-logo img{
+  width: 100%;
+}
+
+.iconos{
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.fab{
+  font-size:60px;
+  color: #FFF;
+  margin-bottom: var(--espacios);
+  display: inline-block;
+}

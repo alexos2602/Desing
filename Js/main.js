@@ -18,6 +18,7 @@ function menus() {
     }else{
         nav.classList.remove('nav1');
         nav.className = ('nav2');
+        nav.style.transition = '1s'
         menu.style.top = '100px';
         abrir.style.color = '#000';
     }
